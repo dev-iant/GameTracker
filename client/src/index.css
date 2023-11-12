@@ -1,0 +1,153 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    }
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
+    }
+
+table, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 25px 0;
+    padding: 12px 15px;
+    font-family: sans-serif;
+    }
+
+td {
+    background-color: white;
+}
+
+th {
+    background-color: gray;
+    }
+
+tr {
+    border-bottom: 2px solid #dddddd;
+}
+
+table {
+    width: 54%;
+    }
+
+h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 75px;
+    font-style: italic;
+    }
+
+.container {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/736/321/non_2x/fantasy-video-game-banner-vector.jpg");
+    background-size: 60%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: inherit;
+    justify-content: top;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 18%;
+    padding-bottom: 60%;
+    }
+
+.buttons {
+    width: 25%;
+    display: flex;
+    padding-bottom: 35px;
+    justify-content: space-evenly;
+}
+
+.randomBox {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.topBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: lightblue;
+    color: darkblue;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.bottomBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+form {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.formLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.formRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: inherit;
+    display: flex;
+}
+
+.viewOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayOne, p {
+    font-size: larger;
+}
+
+.bottomButtons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.error {
+    color: red;
+}
+
+label {
+    font-size: x-large;
+}
